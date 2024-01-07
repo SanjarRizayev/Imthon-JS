@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #0a3545;
+}
+
+.sign_old {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  right: 35%;
+}
+
+.sign_old h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+}
+.sign_old p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.sign_old_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sign_old_form input {
+  width: 350px;
+  background-color: #224958;
+  border: none;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding-left: 10px;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+}
+
+.sing_in_old_small {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 170px;
+}
+.sing_in_old_small input {
+  width: 15px;
+  height: 15px;
+  border: none;
+  outline: none;
+}
+
+.sing_in_old_small p {
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 14px;
+}
+
+.sign_old_btn button {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #20df7f;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
